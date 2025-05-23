@@ -1,0 +1,309 @@
+.wireframe {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.wireframe .div {
+  width: 1440px;
+  height: 1370px;
+  position: relative;
+}
+
+.wireframe .overlap {
+  position: absolute;
+  width: 1087px;
+  height: 277px;
+  top: 107px;
+  left: 162px;
+}
+
+.wireframe .text-wrapper {
+  position: absolute;
+  width: 1058px;
+  height: 200px;
+  top: 0;
+  left: 29px;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #bf446f;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1.2px;
+  transition: color 0.3s ease-in-out;
+}
+
+.wireframe .p {
+  position: absolute;
+  width: 1087px;
+  height: 99px;
+  top: 100px;
+  left: 0;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #a13e62;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1.2px;
+  transition: color 0.3s ease-in-out;
+}
+
+.wireframe .overlap-group {
+  position: absolute;
+  width: 1215px;
+  height: 314px;
+  top: 310px;
+  left: 101px;
+}
+
+.wireframe .element {
+  position: absolute;
+  width: 257px;
+  height: 310px;
+  top: 3px;
+  left: 958px;
+  object-fit: cover;
+}
+
+.wireframe .img {
+  position: absolute;
+  width: 257px;
+  height: 310px;
+  top: 4px;
+  left: 827px;
+  object-fit: cover;
+}
+
+.wireframe .element-2 {
+  position: absolute;
+  width: 253px;
+  height: 307px;
+  top: 5px;
+  left: 642px;
+  object-fit: cover;
+}
+
+.wireframe .element-3 {
+  position: absolute;
+  width: 253px;
+  height: 307px;
+  top: 3px;
+  left: 500px;
+  object-fit: cover;
+}
+
+.wireframe .element-4 {
+  position: absolute;
+  width: 259px;
+  height: 311px;
+  top: 0;
+  left: 320px;
+  object-fit: cover;
+}
+
+.wireframe .element-5 {
+  position: absolute;
+  width: 257px;
+  height: 310px;
+  top: 2px;
+  left: 186px;
+  object-fit: cover;
+}
+
+.wireframe .element-6 {
+  position: absolute;
+  width: 254px;
+  height: 307px;
+  top: 3px;
+  left: 0;
+  object-fit: cover;
+}
+
+.wireframe .element,
+.wireframe .img,
+.wireframe .element-2,
+.wireframe .element-3,
+.wireframe .element-4,
+.wireframe .element-5,
+.wireframe .element-6 {
+  transition: transform 0.4s ease, opacity 0.4s ease, z-index 0s;
+  position: absolute;
+}
+
+.wireframe .element:hover,
+.wireframe .img:hover,
+.wireframe .element-2:hover,
+.wireframe .element-3:hover,
+.wireframe .element-4:hover,
+.wireframe .element-5:hover,
+.wireframe .element-6:hover {
+  opacity: 1;
+  z-index: 10;
+}
+
+.wireframe .element-6:hover {
+    transform: scale(1.30) rotate(3deg) translateY(-50px);
+}
+
+.wireframe .element-5:hover {
+    transform: scale(1.30) rotate(-5deg) translateY(-50px);
+}
+
+.wireframe .element-4:hover {
+    transform: scale(1.30) rotate(6deg) translateY(-50px);
+}
+
+.wireframe .element-3:hover {
+    transform: scale(1.30) rotate(-4deg) translateY(-50px);
+}
+
+.wireframe .element-2:hover {
+    transform: scale(1.30) rotate(4deg) translateY(-50px);
+}
+
+.wireframe .img:hover {
+    transform: scale(1.30) rotate(-5deg) translateY(-50px);
+}
+
+.wireframe .element:hover {
+    transform: scale(1.30) rotate(5deg) translateY(-50px);
+}
+
+.wireframe .overlap-group-2 {
+  position: absolute;
+  width: 1000px;
+  height: 555px;
+  top: 700px;
+  left: 220px;
+  background-color: #ffa2c24c;
+  border-radius: 45px;
+  box-shadow: 0px 12px 20px 10px #efb3c8ab;
+  transition: transform 0.4s ease-in-out;
+}
+
+.wireframe .text-wrapper-2 {
+  position: absolute;
+  width: 371px;
+  height: 64px;
+  top: 80px;
+  left: 60px;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #b64069;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1.2px;
+}
+
+.wireframe .overlap-2 {
+  position: absolute;
+  width: 890px;
+  height: 301px;
+  top: 165px;
+  left: 60px;
+}
+
+.wireframe .text-wrapper-3 {
+  position: absolute;
+  width: 630px;
+  height: 60px;
+  top: 0;
+  left: 61px;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #b7416a;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1.2px;
+}
+
+.wireframe .text-wrapper-4 {
+  position: absolute;
+  width: 863px;
+  height: 71px;
+  top: 54px;
+  left: 0;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #b7416a;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1.2px;
+}
+
+.wireframe .every-moment-that-we {
+  position: absolute;
+  width: 852px;
+  height: 74px;
+  top: 114px;
+  left: 0;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #b7416a;
+  font-size: 39px;
+  letter-spacing: 0;
+  line-height: 1.2px;
+}
+
+.wireframe .text-wrapper-5 {
+  position: absolute;
+  width: 857px;
+  height: 72px;
+  top: 173px;
+  left: 0;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #b7416a;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1.2px;
+}
+
+.wireframe .here-s-to-many-more {
+  position: absolute;
+  width: 890px;
+  height: 71px;
+  top: 230px;
+  left: 0;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #b7416a;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1.2px;
+}
+
+.wireframe .text-wrapper-6 {
+  position: absolute;
+  width: 272px;
+  height: 57px;
+  top: 485px;
+  left: 661px;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #b7416a;
+  font-size: 40px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 1.2px;
+}
+
+.wireframe .text-wrapper-7 {
+  position: absolute;
+  width: 589px;
+  height: 10px;
+  top: 1340px;
+  left: 426px;
+  font-family: "Indie Flower", Helvetica;
+  font-weight: 400;
+  color: #b7416a;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1px;
+}
