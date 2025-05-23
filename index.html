@@ -36,5 +36,30 @@
         <p class="text-wrapper-7">made with ❤️ by isabelle</p>
       </div>
     </div>
+
+    <!-- Background Music -->
+    <audio id="bgm" autoplay loop>
+      <source src="Palagi Piano Cover.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Music Icon Button -->
+    <button class="music-icon" id="musicToggle">
+      <img src="music-icon.png" alt="Music Icon" id="musicIcon">
+    </button>
+
+    <script>
+      const audio = document.getElementById('bgm');
+      const musicToggle = document.getElementById('musicToggle');
+      const musicIcon = document.getElementById('musicIcon');
+      musicToggle.addEventListener('click', () => {
+        if (audio.muted) {
+          audio.muted = false; // Unmute
+          musicIcon.src = 'music-icon.png'; // Change to unmuted icon
+        } else {
+          audio.muted = true; // Mute
+          musicIcon.src = 'muted-icon.png'; // Change to muted icon
+        }
+      });
+    </script>
   </body>
 </html>
