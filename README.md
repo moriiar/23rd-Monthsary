@@ -5,7 +5,6 @@ A heartfelt webpage created to celebrate our 23rd monthsary. This simple yet mea
 
 ## 🌟 Features
 
-- **Responsive Design**: Ensures the page looks great on all devices.
 - **Custom Styling**: Personalized aesthetics to reflect our unique bond.
 - **Meaningful Content**: Every element is crafted to convey love and memories.
 
