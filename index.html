@@ -38,7 +38,7 @@
     </div>
 
     <!-- Background Music -->
-    <audio id="bgm" autoplay loop>
+    <audio id="bgm" loop>
       <source src="Palagi Piano Cover.mp3" type="audio/mpeg">
     </audio>
 
@@ -51,13 +51,14 @@
       const audio = document.getElementById('bgm');
       const musicToggle = document.getElementById('musicToggle');
       const musicIcon = document.getElementById('musicIcon');
+      
       musicToggle.addEventListener('click', () => {
-        if (audio.muted) {
-          audio.muted = false; // Unmute
-          musicIcon.src = 'music-icon.png'; // Change to unmuted icon
+        if (audio.paused) {
+          audio.play(); // Play the audio
+          musicIcon.src = 'path/to/music-icon.png'; // Change to playing icon
         } else {
-          audio.muted = true; // Mute
-          musicIcon.src = 'muted-icon.png'; // Change to muted icon
+          audio.pause(); // Pause the audio
+          musicIcon.src = 'path/to/muted-icon.png'; // Change to paused icon
         }
       });
     </script>
